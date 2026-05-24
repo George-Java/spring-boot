@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/spring-boot-ssm/src/main/resources/com/george/springboot/mapper/UserMapper.xml" value="2b9bbdd0-583c-458e-9a80-8f90b971c800" />
+  </component>
+</project>

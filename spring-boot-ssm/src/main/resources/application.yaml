@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: spring-boot-ssm
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot
+    username: root
+    password: 123456
+    type: com.zaxxer.hikari.HikariDataSource
+
+  thymeleaf:
+    cache: false
+    mode: HTML
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+
+  web:
+    resources:
+      static-locations:
+        - 'classpath:/resources/'
+        - 'classpath:/resources/static'
+        - 'classpath:/static/'
+
+
+mybatis:
+  type-aliases-package: com.george.springboot.bean
+  mapper-locations: classpath:com/george/springboot/mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    lazy-loading-enabled: true

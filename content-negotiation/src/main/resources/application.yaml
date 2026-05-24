@@ -1,0 +1,53 @@
+spring:
+  application:
+    name: content-negotiation
+
+  #ant-path-matcher表示采用ant风格的请求路径匹配，默认值为path-pattern-parser
+  #这两种风格仅在模糊匹配时不同,path-pattern-parser风格 **仅能用在请求URL末尾
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+    #内容协商:服务器根据客户端的请求来决定响应什么类型的资源(例如json,xml,yaml,html...)
+    #配置favor-parameter表示内容协商使用请求参数形式，例如http://localhost:8080?format=json表示客户端要求服务端返回json
+    contentnegotiation:
+      favor-parameter: true
+      #media-types配置自定义媒体类型
+      media-types:
+        yaml: text/yaml
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot
+    username: root
+    password: 123456
+    type: com.zaxxer.hikari.HikariDataSource
+
+
+mybatis:
+  configuration:
+    lazy-loading-enabled: true
+    map-underscore-to-camel-case: true
+
+
+#root:全局日志级别debug,com.george.springboot.handler.GlobalExceptionHandler类单独设置日志级别trace
+logging:
+  level:
+    root: warn
+    com:
+      george:
+        springboot:
+          handler:
+            GlobalExceptionHandler: trace
+  file:
+    path: E:/log
+  logback:
+    rollingpolicy:
+      #日志文件达到多大时进行归档
+      max-file-size: 10MB
+      #所有归档的日志文件达到多大时进行删除，默认0B表示不删除
+      total-size-cap: 10GB
+      #归档日志文件最多保留多少天
+      max-history: 7
+      #启动项目时是否清理归档日志文件
+      clean-history-on-start: false
+      #归档日志文件名的格式
+      file-name-pattern: ${LOG_FILE}.%d{yyyy-MM-dd}.%i.gz

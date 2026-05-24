@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: spring-boot-start
+#  数据源
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot
+    username: root
+    password: 123456
+    type: com.zaxxer.hikari.HikariDataSource
+user:
+  age: 22
+  height: 176
+  score:
+    chinese: 98
+    math: 100
+    english: 95
+#  多环境切换，dev表示使用application-dev.yml这个配置文件中的环境
+#  profiles:
+#    active: dev

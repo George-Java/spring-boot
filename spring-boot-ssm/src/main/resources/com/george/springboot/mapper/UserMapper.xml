@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.george.springboot.mapper.UserMapper">
+    <select id="findAll" resultType="com.george.springboot.bean.User">
+        select *
+        from tb_user
+    </select>
+
+    <select id="findById" resultType="com.george.springboot.bean.User">
+        select *
+        from tb_user
+        where id = #{id}
+    </select>
+
+    <insert id="insertUser" parameterType="com.george.springboot.bean.User">
+        insert into tb_user(id, name, account_name, password)
+        values (null, #{user.name}, #{user.accountName}, #{user.password})
+    </insert>
+
+    <delete id="deleteById">
+        delete
+        from tb_user
+        where id = #{id}
+    </delete>
+
+    <update id="updateUser" parameterType="com.george.springboot.bean.User">
+        update tb_user
+        <set>
+            <if test="user.name and user.name!=''">
+                name=#{user.name}
+            </if>
+            <if test="user.accountName and user.accountName!=''">
+                account_name=#{user.accountName}
+            </if>
+            <if test="user.password and user.password!=''">
+                password=#{user.password}
+            </if>
+        </set>
+        where id=#{user.id}
+    </update>
+</mapper>

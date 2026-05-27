@@ -2,9 +2,9 @@ package com.george.springboot.controller;
 
 import com.george.springboot.bean.User;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @Controller
 @RequestMapping("/")
@@ -23,5 +23,14 @@ public class IndexController {
     @GetMapping("/index.html")
     public User index2() {
         return new User(1, "张三", "root", "123456");
+    }
+
+    @ResponseBody
+    @PostMapping("/api/user")
+    public List<User> addUsers(@RequestBody List<User> users) {
+        for (User user : users) {
+            System.out.println(user);
+        }
+        return users;
     }
 }

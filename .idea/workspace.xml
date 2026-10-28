@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="636b782c-feba-46cc-850f-82486da74415" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/content-negotiation/src/main/java/com/george/springboot/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thymeleaf/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content-negotiation/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content-negotiation/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content-negotiation/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content-negotiation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/content-negotiation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content-negotiation/src/main/java/com/george/springboot/ContentNegotiationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/content-negotiation/src/main/java/com/george/springboot/ContentNegotiationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content-negotiation/src/main/java/com/george/springboot/configuration/WebConfigure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content-negotiation/src/main/java/com/george/springboot/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/content-negotiation/src/main/java/com/george/springboot/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content-negotiation/src/main/java/com/george/springboot/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/content-negotiation/src/main/java/com/george/springboot/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content-negotiation/src/main/java/com/george/springboot/converter/YAMLHttpMessageConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content-negotiation/src/main/java/com/george/springboot/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/content-negotiation/src/main/java/com/george/springboot/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content-negotiation/src/main/java/com/george/springboot/mappers/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/content-negotiation/src/main/java/com/george/springboot/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content-negotiation/src/main/java/com/george/springboot/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/content-negotiation/src/main/java/com/george/springboot/service/impl/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content-negotiation/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/content-negotiation/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content-negotiation/src/main/resources/com/george/springboot/mappers/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content-negotiation/src/test/java/com/george/springboot/ContentNegotiationApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/content-negotiation/src/test/java/com/george/springboot/ContentNegotiationApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-aop/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-aop/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-aop/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-aop/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-aop/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-aop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-aop/src/main/java/com/george/springboot/SpringBootAopApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-aop/src/main/java/com/george/springboot/aspect/LogAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-aop/src/main/java/com/george/springboot/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-aop/src/main/java/com/george/springboot/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-aop/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-aop/src/test/java/com/george/springboot/SpringBootAopApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-aop/src/test/java/com/george/springboot/service/UserServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-redis/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-redis/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-redis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-redis/src/main/java/com/george/springboot/SpringBootRedisApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-redis/src/main/java/com/george/springboot/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-redis/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-redis/src/test/java/com/george/springboot/SpringBootRedisApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-redis/src/test/java/com/george/springboot/start/RedisTemplateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ssm/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ssm/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ssm/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ssm/src/main/java/com/george/springboot/SpringBootMainApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ssm/src/main/java/com/george/springboot/bean/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ssm/src/main/java/com/george/springboot/bean/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ssm/src/main/java/com/george/springboot/controller/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ssm/src/main/java/com/george/springboot/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ssm/src/main/java/com/george/springboot/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ssm/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ssm/src/main/resources/com/george/springboot/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ssm/src/main/resources/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ssm/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ssm/src/test/java/com/george/springboot/SpringBootSsmApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ssm/src/test/java/com/george/springboot/bean/CarTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-ssm/src/test/java/com/george/springboot/service/UserServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-start/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-start/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-start/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-start/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-start/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-start/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-start/src/main/java/com/george/springboot/SpringBootStartApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-start/src/main/java/com/george/springboot/bean/Score.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-start/src/main/java/com/george/springboot/bean/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-start/src/main/java/com/george/springboot/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-start/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-start/src/main/resources/spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-start/src/test/java/com/george/springboot/SpringBootStartApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;George-Java&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/George-Java/spring-boot.git&quot;,
+    &quot;accountId&quot;: &quot;2cb75c54-7b51-401b-9b48-347682fc99f2&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3LJiYBAAVPOODQhtI7RUwwsjSlL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.UserServiceImplTest.testSave.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ContentNegotiationApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/spring-boot&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\spring-boot" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="ContentNegotiationApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="UserServiceImplTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.george.springboot.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.george.springboot.service" />
+      <option name="MAIN_CLASS_NAME" value="com.george.springboot.service.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="testSave" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ContentNegotiationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="content-negotiation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.george.springboot.ContentNegotiationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServiceImplTest.testSave" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="636b782c-feba-46cc-850f-82486da74415" name="更改" comment="" />
+      <created>1793178618507</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793178618507</updated>
+      <workItem from="1793178620308" duration="2599000" />
+      <workItem from="1793181246108" duration="1027000" />
+      <workItem from="1793182294742" duration="4772000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

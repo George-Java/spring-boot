@@ -11,12 +11,10 @@ spring:
     #配置favor-parameter表示内容协商使用请求参数形式，例如http://localhost:8080?format=json表示客户端要求服务端返回json
     contentnegotiation:
       favor-parameter: true
-      #media-types配置自定义媒体类型
-      media-types:
-        yaml: text/yaml
+
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/springboot
+    url: jdbc:mysql://192.168.68.128:3306/springboot
     username: root
     password: 123456
     type: com.zaxxer.hikari.HikariDataSource
